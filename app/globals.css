@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: dark; }
+* { box-sizing: border-box; }
+body { margin: 0; background: #080d1b; color: #f8fafc; }
+button, textarea { font: inherit; }
+
+.glow { box-shadow: 0 0 80px rgba(79, 70, 229, .2); }
+.grid-bg { background-image: linear-gradient(rgba(148,163,184,.06) 1px, transparent 1px), linear-gradient(90deg, rgba(148,163,184,.06) 1px, transparent 1px); background-size: 32px 32px; }
